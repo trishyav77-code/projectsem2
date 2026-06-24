@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gold</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+</head>
+<body>
+
+
+<header class="header">
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="logo">
+            <img src="./tanishq.webp" height="60" width="90" alt="">
+
+        </div>
+
+        <div class="search-box">
+            <input type="text" placeholder="Search for gold necklace">
+            <span class="material-icons-outlined">photo_camera</span>
+            <span class="material-icons-outlined">mic</span>
+        </div>
+      <!-- Icons -->
+        <div class="icons">
+            <div></div>
+           <span class="material-icons-outlined">diamond</span>
+            <span class="material-icons-outlined">store</span>
+            <span class="material-icons-outlined">favorite_border</span>
+
+            <span class="material-icons-outlined">person_outline</span>
+            </div>
+            <div>
+           <button class="cart-icon" onclick="window.location.href='cart.html'">
+
+             <span class="material-icons-outlined">shopping_bag</span>
+                <span id="cart-count">0</span>
+           </button>
+           </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav-menu">
+        <a href="./alljewellery.html" class="active">All Jewellery</a>
+        <a href="./gold.html" class="active">Gold</a>
+        <a href="./diamond.html">Diamond</a>
+        <a href="./earrings.html">Earrings</a>
+        <a href="./rings.html">Rings</a>
+        <a href="./dailywear.html">Daily Wear</a>
+        <a href="./collections.html">Collections</a>
+        <a href="./wedding.html">Wedding</a>
+        <a href="./gifting.html">Gifting</a>
+        <a href="./more.html">More</a>
+        
+    </nav>
+</header>
+
+
+<div class="products">
+
+    <div class="product">
+        <img src="https://tse1.explicit.bing.net/th/id/OIP.6XB3UBr4xQhUtPe9cIxdswHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Necklace">
+        <h3>Gold Necklace</h3>
+        <p>₹45,000</p>
+        <button onclick="addToCart('Gold Necklace',45000, 'https://tse1.explicit.bing.net/th/id/OIP.6XB3UBr4xQhUtPe9cIxdswHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3')">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product">
+        <img src="https://tse4.mm.bing.net/th/id/OIP.QF1OUFyIFjpNW18vKZRKtwHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Ring">  
+        <h3>Gold Bangles</h3>
+        <p>₹60,000</p>
+        <button onclick="addToCart('Gold Bangles',60000, 'https://tse4.mm.bing.net/th/id/OIP.QF1OUFyIFjpNW18vKZRKtwHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3')">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.lfn2ffzVFLEGrnDM5_01egHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Earrings">
+        <h3>Gold Earrings</h3>
+        <p>₹25,000</p>
+        <button onclick="addToCart('Gold Earrings',25000, 'https://tse1.mm.bing.net/th/id/OIP.lfn2ffzVFLEGrnDM5_01egHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3')">
+            Add to Cart
+        </button>
+    </div>
+    <div class="product">
+        <img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwb1188a93/images/hi-res/51M5V3BBLLA00_2.jpg?sw=
+        480&sh=480" alt="Braclet">
+        <h3>Gold braclet</h3>
+        <p>₹45,000</p>
+        <button onclick="addToCart('Gold braclet',45000, 'https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwb1188a93/images/hi-res/51M5V3BBLLA00_2.jpg?sw=480&sh=480')">
+            Add to Cart
+        </button>
+    </div>
+    <div class="product">
+        <img src=https://www.tanishq.ae/dw/image/v2/BJGM_PRD/on/demandware.static/-/Sites-Tanishq-site-catalog/default/dwfba6b370/images/hi-res/EP7005CCAAA00_1.jpg?sw=480&sh=480 alt="Chain">
+        <h3>Gold Chain</h3>
+        <p>₹45,000</p>
+        <button onclick="addToCart('Gold Chain',45000, 'https://www.tanishq.ae/dw/image/v2/BJGM_PRD/on/demandware.static/-/Sites-Tanishq-site-catalog/default/dwfba6b370/images/hi-res/EP7005CCAAA00_1.jpg?sw=480&sh=480')">
+            Add to Cart
+            </button>
+            </div>
+    <div class="product">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.vSg1qexssfz6IMQi_Bf4cwHaHa?r=
+        0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="gold jewellery set">
+        <h3>Gold Jewellery Set</h3>   
+        <p>₹45,000</p>
+        <button onclick="addToCart('Gold Jewellery Set',45000, 'https://tse1.mm.bing.net/th/id/OIP.vSg1qexssfz6IMQi_Bf4cwHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3')">
+            Add to Cart
+            </button>
+            </div>
+    <div class="product">
+        <img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwcfbf242b/images/hi-res/51D3B1NITAA00_1.jpg?sw=640&sh=640" alt="Radiant Gold Necklace">
+        <h3>Radiant Gold Necklace</h3>
+        <p>₹45,000</p>  
+        <button onclick="addToCart('Radiant Gold Necklace',45000, 'https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwcfbf242b/images/hi-res/51D3B1NITAA00_1.jpg?sw=640&sh=640')">
+            Add to Cart
+            </button>
+            </div>
+            <div class="product">
+        <img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwcfbf242b/images/hi-res/552818OWEAAA22_3.jpg" alt="Nose Ring">
+        <h3>Nose Ring</h3>
+        <p>₹45,000</p>
+        <button onclick="addToCart('Nose Ring',45000, 'https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwcfbf242b/images/hi-res/552818OWEAAA22_3.jpg')">
+            Add to Cart
+            </button>
+            </div>  
+            <div class="product">
+        <img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwcfbf242b/images/hi-res/512411FDUAA00_1.jpg" alt="Finger Ring">
+        <h3>Finger Ring</h3>  
+        <p>₹45,000</p>
+        <button onclick="addToCart('Finger Ring',45000, 'https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwcfbf242b/images/hi-res/512411FDUAA00_1.jpg')">
+            Add to Cart
+            </button>
+            </div>
+
+</div>
+
+<!-- <button class="cart-icon" onclick="viewCart()">
+    <span class="material-icons-outlined">shopping_bag</span>
+    View Cart
+    <span id="cart-count">0</span>
+</button> -->
+
+<script src="project.js"></script>
+
+</body>
+</html>

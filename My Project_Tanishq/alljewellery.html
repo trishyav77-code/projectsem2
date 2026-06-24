@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Jewellery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+</head>
+<body>
+
+
+<header class="header">
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="logo">
+            <img src="./tanishq.webp" height="60" width="90" alt="">
+
+        </div>
+
+        <div class="search-box">
+            <input type="text" placeholder="Search for gold necklace">
+            <span class="material-icons-outlined">photo_camera</span>
+            <span class="material-icons-outlined">mic</span>
+        </div>
+      <!-- Icons -->
+        <div class="icons">
+            <div></div>
+           <span class="material-icons-outlined">diamond</span>
+            <span class="material-icons-outlined">store</span>
+            <span class="material-icons-outlined">favorite_border</span>
+
+            <span class="material-icons-outlined">person_outline</span>
+            </div>
+            <div>
+                <button class="cart-icon" onclick="window.location.href='cart.html'">
+             <span class="material-icons-outlined">shopping_bag</span>
+                <span id="cart-count">0</span>
+           </button>
+           </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav-menu">
+        <a href="./alljewellery.html" class="active">All Jewellery</a>
+        <a href="./gold.html">Gold</a>
+        <a href="./diamond.html">Diamond</a>
+        <a href="./earrings.html">Earrings</a>
+        <a href="./rings.html">Rings</a>
+        <a href="./dailywear.html">Daily Wear</a>
+        <a href="./collections.html">Collections</a>
+        <a href="./wedding.html">Wedding</a>
+        <a href="./gifting.html">Gifting</a>
+        <a href="./more.html">More</a>
+        
+    </nav>
+</header>
+
+
+<div class="products">
+
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images
+        ?q=tbn:ANd9GcTnUKZ4bu2s-rf96-qtCTDVm1fHTp4x5TCBcA&s" alt="Necklace">
+        <h3>Gold Necklace</h3>
+        <p>₹45,000</p>
+        <button onclick="addToCart('Gold Necklace',45000, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnUKZ4bu2s-rf96-qtCTDVm1fHTp4x5TCBcA&s')">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product">
+        <img src="https://tse4.mm.bing.net/th/id/OIP.IDNoAEeEwwBtStZ9IlP9tgHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=30"
+         alt="Ring">  
+        <h3>Diamond Ring</h3>
+        <p>₹60,000</p>
+        <button onclick="addToCart('Diamond Ring',60000, 'https://tse4.mm.bing.net/th/id/OIP.IDNoAEeEwwBtStZ9IlP9tgHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=30')">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV2ennpShs9
+        azzofVVQPpzO-WRlkUn2HRlFg&s" alt="Earrings">
+        <h3>Gold Earrings</h3>
+        <p>₹25,000</p>
+        <button onclick="addToCart('Gold Earrings',25000, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV2ennpShs9azzofVVQPpzO-WRlkUn2HRlFg&s')">
+            Add to Cart
+        </button>
+    </div>
+    <div class="product">
+        <img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw98b4df0f/images/hi-res/51D3B2BBVAA00_1.jpg?sw=480&sh=480" alt="Braclet">
+        <h3>Gold braclet</h3>
+        <p>₹45,000</p>
+        <button onclick="addToCart('Gold braclet',45000, 'https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw98b4df0f/images/hi-res/51D3B2BBVAA00_1.jpg?sw=480&sh=480')">
+            Add to Cart
+        </button>
+    </div>
+
+</div>
+
+<!-- <button class="cart-icon" onclick="viewCart()">
+    <span class="material-icons-outlined">shopping_bag</span>
+    View Cart
+    <span id="cart-count">0</span>
+</button> -->
+
+<script src="project.js"></script>
+
+</body>
+</html>
